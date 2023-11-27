@@ -2,6 +2,8 @@
 #include <stdlib.h> 
 #include <time.h>
 
+void llenarMatrizAleatoria(int filas, int columnas, int matriz[filas][columnas])
+{ srand(time(NULL));
 // Función para llenar la matriz con números aleatorios entre 0 y 100 
 
 for (int i = 0; i < filas; ++i) { //ciclo de entendimiento
