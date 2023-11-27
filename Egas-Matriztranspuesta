@@ -7,9 +7,18 @@ void llenarMatrizAleatoria(int filas, int columnas, int matriz[filas][columnas])
 // Función para llenar la matriz con números aleatorios entre 0 y 100 
 
 // Función para imprimir la matriz
-void imprimirMatriz(int filas, int columnas, int matriz[filas][columnas]) { for (int i = 0; i < filas; ++i) { for (int j = 0; j < columnas; ++j) {
-printf("%3d ", matriz[i][j]); } 
-printf("\n"); } }
+void imprimirMatriz(int filas, int columnas, int matriz[filas][columnas]) { 
+
+for (int i = 0; i < filas; ++i) { 
+{
+for (int j = 0; j < columnas; ++j) {
+printf("%3d ", matriz[i][j]);
+printf("\n"); 
+
+}
+
+
+
 
 for (int i = 0; i < filas; ++i) { //ciclo de entendimiento
     for (int j = 0; j < columnas; ++j) {
