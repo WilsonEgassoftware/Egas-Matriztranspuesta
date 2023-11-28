@@ -10,14 +10,11 @@ void llenarMatrizAleatoria(int filas, int columnas, int matriz[filas][columnas])
 void imprimirMatriz(int filas, int columnas, int matriz[filas][columnas]) { 
 
 for (int i = 0; i < filas; ++i) { 
-{
 for (int j = 0; j < columnas; ++j) {
 printf("%3d ", matriz[i][j]);
 printf("\n"); 
 
 }
-
-
 
 
 for (int i = 0; i < filas; ++i) { //ciclo de entendimiento
